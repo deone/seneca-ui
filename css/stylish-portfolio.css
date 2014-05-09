@@ -10,8 +10,8 @@ body {
   display: table-cell;
   /* vertical-align: middle; */
   padding-top: 150px;
-  /* text-align: center; */
-  padding-left: 230px;
+  text-align: center;
+  /* padding-left: 230px; */
 }
 
 .vert-text h1 {

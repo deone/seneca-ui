@@ -1,8 +1,24 @@
-form.search {
+.search {
+  text-align: center;
+}
+
+.search form  {
   background-color: rgba(0, 0, 0, 0.3); 
-  width: 810px; 
-  padding-left: 6px; 
-  height: 46px; 
-  padding-top: 6px; 
+  margin-left: 21.5%;
+  margin-right: 21.5%;
+  padding: 6px;
   border-radius: 4px;
+}
+
+.vert-text h3, .vert-text h1  {
+  color: #fff;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+}
+
+.navbar-default {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
 }
