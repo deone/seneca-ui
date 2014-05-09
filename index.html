@@ -16,6 +16,7 @@
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/seneca.css" rel="stylesheet">
   </head>
 
   <body>
@@ -244,8 +245,32 @@
     <div id="top" class="header">
       <div class="vert-text">
         <h1>Find a place to stay.</h1>
-        <h3>Search hotels in over 34,000 cities and 192 countries.</h3>
-        <a href="#about" class="btn btn-default btn-lg">Find Out More</a>
+        <h3>Book hotels in over 34,000 cities and 192 countries.</h3>
+        <form class="search form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="">Where do you want to go?</label>
+            <input style="width: 257px" type="text" class="form-control" id="" placeholder="Where do you want to go?">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="">Check-In Date</label>
+            <input type="date" class="form-control" id="" placeholder="Check-in">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="">Check-Out Date</label>
+            <input type="date" class="form-control" id="">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="">Number of Guests</label>
+            <select class="form-control">
+              <option>1 Guest</option>
+              <option>2 Guests</option>
+              <option>3 Guests</option>
+              <option>4 Guests</option>
+              <option>5 Guests</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -258,7 +283,6 @@
             <ul class="list-inline">
               <li><i class="fa fa-facebook fa-3x"></i></li>
               <li><i class="fa fa-twitter fa-3x"></i></li>
-              <li><i class="fa fa-dribbble fa-3x"></i></li>
             </ul>
             <div class="top-scroll">
               <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>

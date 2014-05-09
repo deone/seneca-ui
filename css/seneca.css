@@ -1,0 +1,8 @@
+form.search {
+  background-color: rgba(0, 0, 0, 0.3); 
+  width: 810px; 
+  padding-left: 6px; 
+  height: 46px; 
+  padding-top: 6px; 
+  border-radius: 4px;
+}
