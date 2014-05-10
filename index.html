@@ -21,7 +21,7 @@
 
   <body>
 
-    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -32,6 +32,13 @@
         <a class="navbar-brand" href="index.html">Herebly</a>
       </div>
       <!-- /.navbar-header -->
+
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Where are you going?">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
 
       <ul class="nav navbar-top-links navbar-right">
         <li class="dropdown">
@@ -249,8 +256,8 @@
         <div class="search">
           <form class="form-inline" role="form">
             <div class="form-group">
-              <label class="sr-only" for="">Where do you want to go?</label>
-              <input type="text" class="form-control" id="" placeholder="Where do you want to go?">
+              <label class="sr-only" for="">Where are you going?</label>
+              <input type="text" class="form-control" id="" placeholder="Where are you going?">
             </div>
             <div class="form-group">
               <label class="sr-only" for="">Check-In Date</label>
